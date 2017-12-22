@@ -1,8 +1,10 @@
+#include<stdio.h>
+
+
 main()
 {
      
-      int X,Y,Z,T;
-      scanf("%d%d%d",&X,&Y,&Z);
+      int X=1,Y=2,Z=3,T;
       
       if(Y>X)
           T=Y,Y=X,X=T;
