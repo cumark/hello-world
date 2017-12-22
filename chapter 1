@@ -1,0 +1,18 @@
+main()
+{
+     
+      int X,Y,Z,T;
+      scanf("%d%d%d",&X,&Y,&Z);
+      
+      if(Y>X)
+          T=Y,Y=X,X=T;
+      if(Z>X)
+          T=Z,Z=X,X=T;
+      else
+      {
+          if(Z>Y)
+            T=Z,Z=Y,Y=T;
+      };
+      
+      printf("%d%d",a,b);
+ };
